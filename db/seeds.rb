@@ -8,7 +8,7 @@
 
 ev1 = EventVenue.create!(name: "Estadio San Carlos de Apoquindo",
                      address: "Circunvalación Las Flores 13000, Las Condes, Región Metropolitana",
-                     capacity: 20000)
+                     capacity: 10)
 ev2 = EventVenue.create!(name: "Velódromo Estadio Nacional",
                      address: "Av. Pedro de Valdivia 5140. Santiago, Chile",
                      capacity: 10000)
@@ -43,10 +43,28 @@ t1 = Ticket.create(ticket_type: tt1)
 t2 = Ticket.create(ticket_type: tt2)
 t3 = Ticket.create(ticket_type: tt3)
 t4 = Ticket.create(ticket_type: tt4)
+t5 = Ticket.create(ticket_type: tt1)
+t6 = Ticket.create(ticket_type: tt1)
+t7 = Ticket.create(ticket_type: tt1)
+t8 = Ticket.create(ticket_type: tt1)
+t9 = Ticket.create(ticket_type: tt1)
+t10 = Ticket.create(ticket_type: tt1)
+t11 = Ticket.create(ticket_type: tt1)
+t12 = Ticket.create(ticket_type: tt1)
+
 
 o1 = Order.new(customer: c1)
 o1.tickets << t1
 o1.tickets << t2
 o1.tickets << t3
 o1.tickets << t4
+o1.tickets << t5
+o1.tickets << t6
+o1.tickets << t7
+o1.tickets << t8
+o1.tickets << t9
+o1.tickets << t10
+o1.tickets << t11
+o1.tickets << t12
+
 o1.save!

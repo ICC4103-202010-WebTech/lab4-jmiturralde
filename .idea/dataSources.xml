@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="test" uuid="a5d6208f-24b9-46be-9fd7-5f634113c53a">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\Yiyo\Desktop\lab4-jmiturralde\db\test.sqlite3</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="development" uuid="6241d0ec-2ff9-420c-b90a-e7d029cc7526">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\Yiyo\Desktop\lab4-jmiturralde\db\development.sqlite3</jdbc-url>
+    </data-source>
+  </component>
+</project>
